@@ -112,4 +112,3 @@ dispatcher.add_handler(MessageHandler(Filters.group & Filters.text, echo_group))
 # ----- تشغيل البوت -----
 updater.start_polling()
 updater.idle()
-bot.py
